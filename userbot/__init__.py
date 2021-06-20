@@ -327,7 +327,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```SPACE-BOT 🚀\nMENYALA ANJENGGG🔥\nSUPPORT KONTOLLL @storyangkasa```")
+    await bot.send_message(BOTLOG_CHATID, "```SPACE-BOT 🚀\nMENYALA ANJENGGG🔥```\nSUPPORT KONTOLLL @storyangkasa")
     return
 
 with bot:
