@@ -9,7 +9,7 @@
 from datetime import datetime
 
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime
+from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
 import time
 
@@ -60,7 +60,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        {REPO_NAME}** \n"
+                    f"**        SPACE-BOT** \n"
                     f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
                     f"**        • SINYAL    :** `%sms` \n"
                     f"**        • PEMILIK   :** `{ALIVE_NAME}` \n"
