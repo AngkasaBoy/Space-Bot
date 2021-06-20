@@ -40,6 +40,7 @@ async def get_readable_time(seconds: int) -> str:
 
     return up_time
 
+
 @register(outgoing=True, pattern="^.sping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -91,9 +92,9 @@ async def redis(pong):
                     f"`%sms` \n"
                     f"┣[•__Uptime__ __:__ "
                     f"`{uptime}` \n"
-                    f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))    
-    
-    
+                    f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))
+
+
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
