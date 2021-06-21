@@ -6,6 +6,8 @@
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
 
+import asyncio
+
 from datetime import datetime
 
 from speedtest import Speedtest
